@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">   <!--'offset-md-2' => 2 colunas para cada lado = centralizar-->
+                <div class="alert alert-primary">
+                    <h2>Cadastro de clientes</h2>
+                </div>
+                <form>
+                    <label class="form-label" for="nome" id="nome">Seu nome:</label>
+                    <input class="form-control form-control-md" type="text" id="nome"></input>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <label class="form-label" for="email" id="email">Seu e-mail:</label>
+                            <input class="form-control form-control-md" type="text" id="email"></input>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label " for="telefone" id="telefone">Seu telefone:</label>
+                            <input class="form-control form-control-md" type="text" id="telefone"></input>
+                        </div>
+                    </div>
+                    
+                </form>
+                <button class="btn btn-primary" id="btn-cadastrar">Cadastrar</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
